@@ -2,6 +2,7 @@ class Calculator {
  private Double result;
 
 public Calculator(){
+
  this.result = 0.0;
 }
 
@@ -18,4 +19,8 @@ public void sum(Double n1, Double n2){
  setResult(resultSum);
 } 
 
+public void sub(Double n1, Double n2){
+ Double resultSub = n1 - n2;
+ setResult(resultSub);
+}
 }
