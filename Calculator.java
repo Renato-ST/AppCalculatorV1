@@ -23,4 +23,9 @@ public void sub(Double n1, Double n2){
  Double resultSub = n1 - n2;
  setResult(resultSub);
 }
+
+public void mult(Double n1, Double n2){
+ Double resultMult = n1 * n2;
+ setResult(resultMult);
+}
 }
